@@ -11,7 +11,7 @@ description: quick installation guide
 
 #### Video tutorial
 
-https://youtu.be/iVF0swfqsKo
+{% embed url="https://youtu.be/iVF0swfqsKo" %}
 
 #### Getting Sources and install scripts
 
