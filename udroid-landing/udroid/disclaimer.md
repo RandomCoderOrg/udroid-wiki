@@ -18,7 +18,6 @@
 * This project works by complying with SElinux android. and all aim of the project is just to run Linux on android without direct root with a twist and this project improves time by time with your support and motivation.
 * the Linux you trying to install from this repo is not fully functional in the target space because of the SElinux policies, and increasing requirement in Linux requirements and also because the project is set to run with `ptrace()` a low-level access in android kernel
 * Graphic performance is bad in vnc but a better to experience a smooth session is termux:wayland app. check this [doc](https://github.com/RandomCoderOrg/ubuntu-on-android/wiki/XWayland-in-proot)&#x20;
-* **(Update)** see https://github.com/RandomCoderOrg/ubuntu-on-android/wiki/XWayland-in-proot to run a smooth and fast session
 * This project comes without warranties or data protection
 * The Linux you're trying to install from this repo is not fully functional in the target space because of the SELinux policies, and increasing requirement in Linux requirements, and also because the project is set to run with ptrace() low-level access in android kernel
 * That lead to:
