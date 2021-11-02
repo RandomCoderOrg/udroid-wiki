@@ -1,3 +1,10 @@
+---
+description: details & description
+cover: >-
+  https://images.unsplash.com/photo-1629654297299-c8506221ca97?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw0fHxsaW51eHxlbnwwfHx8fDE2MzU4NTk1Njc&ixlib=rb-1.2.1&q=85
+coverY: 0
+---
+
 # 🐧 udroid
 
 ![an rendered image showing udroid ubuntu mate desktop environment running on smartphone ](<.gitbook/assets/banner (1).jpg>)
@@ -30,7 +37,7 @@ Installation, variables, sound, and other things can be found [here.](https://gi
 
 ### Some Screenshot
 
-![screenshot showing udroid with pre-installed xfce4 using libreoffice draw app](.gitbook/assets/three.png) ![screenshot showing udroid with pre-installed xfce4 using vscode and glxgeras running ](<.gitbook/assets/four (1).png>) ![](<.gitbook/assets/IMG\_20211014\_084106 (1).jpg>)
+![screenshot showing udroid with pre-installed xfce4 using libreoffice draw app](.gitbook/assets/three.png) ![screenshot showing udroid with pre-installed xfce4 using vscode and glxgeras running ](<.gitbook/assets/four (1).png>) ![screenshot showing ubuntu mate](<.gitbook/assets/IMG\_20211014\_084106 (1).jpg>)
 
 &#x20;  More can be found [here.](https://github.com/RandomCoderOrg/ubuntu-on-android/blob/beta/showcase.md)
 
