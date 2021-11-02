@@ -29,7 +29,7 @@ codename = `udroid`
 
 ### Disclaimer
 
-Just before starting the installation, you can check [this.](https://github.com/RandomCoderOrg/ubuntu-on-android/blob/beta/desclaimer.md)
+Just before starting the installation, you can check [this](./#disclaimer).
 
 ### Installation
 
