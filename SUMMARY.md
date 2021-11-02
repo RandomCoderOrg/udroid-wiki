@@ -1,4 +1,7 @@
 # Table of contents
 
-* [README](README.md)
-* [Disclaimer](disclaimer.md)
+## 🛸 udroid-landing
+
+* [🐧 udroid](README.md)
+  * [📖 Quick Installation and usage](udroid-landing/udroid/quick-installation-and-usage.md)
+  * [👀 Disclaimer](udroid-landing/udroid/disclaimer.md)

@@ -1,4 +1,4 @@
-# README
+# 🐧 udroid
 
 ![an rendered image showing udroid ubuntu mate desktop environment running on smartphone ](<.gitbook/assets/banner (1).jpg>)
 
@@ -40,7 +40,11 @@ A small help from me if you want to build your own rootfs [wiki\_page](https://g
 
 DEV #0 = [Saicharankandukuri](https://github.com/SaicharanKandukuri)
 
+{% embed url="https://github.com/SaicharanKandukuri" %}
+
 Dev #1 = [Gxmersam](https://github.com/GxmerSam)
+
+{% embed url="https://github.com/GxmerSam" %}
 
 ### License
 
