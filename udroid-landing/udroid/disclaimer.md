@@ -6,15 +6,15 @@
 
 **A note before you try**
 
-* As lot of it is preinstalled you can login and start right after you install.
-* Before installation, be sure that you're on stable internet and your device have 5-6gb free space for neat installation.
-* As this runs on termux and on software rendering so performence clearly depends on CPU, ram and storage read-write speed!
+* As lot of it is pre-installed you can login and start right after you install.
+* You need 5-6gb free space and stable internet for installing.
+* As this runs on termux and on software rendering so performance clearly depends on CPU, ram and storage read-write speed.
 * Consider not to try heavy apps unless you got a good device.
 * If you have any issues or suggestions make sure i know at https://github.com/RandomCoderOrg/ubuntu-on-android/issue (create an issue)
 
 **Disclaimer**
 
-* we don't work with any company or organization of ubuntu or any third-party sources that took in making fs(but we are welcome).
+* We don't work with any company or organization of ubuntu or any third-party sources that took in making fs(but we are welcome).
 * This project works by complying with SElinux android. and all aim of the project is just to run Linux on android without direct root with a twist and this project improves time by time with your support and motivation.
 * the Linux you trying to install from this repo is not fully functional in the target space because of the SElinux policies, and increasing requirement in Linux requirements and also because the project is set to run with `ptrace()` a low-level access in android kernel
 * Graphic performance is bad in vnc but a better to experience a smooth session is termux:wayland app. check this [doc](https://github.com/RandomCoderOrg/ubuntu-on-android/wiki/XWayland-in-proot)&#x20;
@@ -41,8 +41,8 @@
 
 **Graphics**
 
-* For this time being there is no standardized way of accessing or using device GPU at its full potential so llvm pipes are used! (OpenGL version may depend on device OS). Most of the solutions are tricks to get more performence or vendor specific implementaions (like kernel graphics support layer/DRI ).
-* Best way to experience native Linux like performence is using Termux:Wayland app which is wayland port to android
+* For this time being there is no standardised way of accessing or using device GPU at its full potential so llvm pipes are used! (OpenGL version may depend on device OS). Most of the solutions are tricks to get more performence or vendor specific implementaions (like kernel graphics support layer/DRI ).
+* Best way to experience native Linux like performence is using Termux-X11 app which is wayland port to android
 
 **Others**
 
