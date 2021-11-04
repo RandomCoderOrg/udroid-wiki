@@ -61,14 +61,18 @@ pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth
 
 First up of all install Termux-x11 from above link, in termux use
 
-```
+```bash
 XDG_RUNTIME_DIR=$PREFIX/bin Xwayland -ac :1 > /dev/null &
 ```
 
-This time start udroid with
+This time start udroid with `--shared-tmp`
 
-```
+```bash
 proot-distro login udroid --shared-tmp
+```
+###### or
+```bash
+udroid --shared-tmp
 ```
 
 And then start Xfce4 on Xwayland via
