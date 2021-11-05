@@ -27,21 +27,11 @@ codename = `udroid`
 | amd64  | ![](https://img.shields.io/badge/-inprogress-blue)                                                                                   |
 | Others | `not started`                                                                                                                        |
 
-### Disclaimer
-
-Just before starting the installation, you can check [this](./#disclaimer).
-
-### Installation
-
-Installation, variables, sound, and other things can be found [here.](https://github.com/RandomCoderOrg/ubuntu-on-android/blob/beta/installation.md)
 
 ### Some Screenshot
 
 ![screenshot showing udroid with pre-installed xfce4 using libreoffice draw app](.gitbook/assets/three.png) ![screenshot showing udroid with pre-installed xfce4 using vscode and glxgeras running ](<.gitbook/assets/four (1).png>) ![screenshot showing ubuntu mate](<.gitbook/assets/IMG\_20211014\_084106 (1).jpg>)
 
-&#x20;  More can be found [here.](https://github.com/RandomCoderOrg/ubuntu-on-android/blob/beta/showcase.md)
-
-A small help from me if you want to build your own rootfs [wiki\_page](https://github.com/RandomCoderOrg/ubuntu-on-android/wiki/commands-took-to-make-a-custom-rootfs)
 
 ### Developers & credits
 
@@ -56,7 +46,3 @@ Dev #1 = [Gxmersam](https://github.com/GxmerSam)
 ### License
 
 MIT Copyright (c) 2021 Saicharan Kandukuri
-
-#### More Updates coming soon...
-
-feel free to contribute to this repo.
