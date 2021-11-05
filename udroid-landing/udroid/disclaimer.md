@@ -1,7 +1,4 @@
-# ⚠️ Disclaimer
-
-
-
+# 👀 Disclaimer
 
 **📝 Note before trying**
 
@@ -24,8 +21,7 @@
 
 **🖥️ Display**
 
-* The display / control of the desktop environment can be accessed in a variety of ways, for example
-• Termux: Wayland **Recommended**
+* The display / control of the desktop environment can be accessed in a variety of ways, for example • Termux: Wayland **Recommended**
 * xRDP
 * Vncserver (RealVnc Viewer, Bvnc, Nethunter Vnc, etc.)
 * Xserver XSDL
