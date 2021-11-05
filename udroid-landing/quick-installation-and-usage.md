@@ -1,13 +1,13 @@
 ---
-description: quick installation guide
+description: Installation
 ---
 
 # 📖 Quick Installation and usage
 
-### Installation
+### Before installing:-
 
-* First, install termux from [termux.com](https://termux.com) or [F-Droid!](https://f-droid.org/en/packages/com.termux/)
-* For display, you can use [Xwayland](https://github.com/termux/termux-x11) too.
+* Get termux from [termux.com](https://termux.com) or [F-Droid.](https://f-droid.org/en/packages/com.termux/)
+* [Vnc Viewer](https://play.google.com/store/apps/details?id=com.iiordanov.freebVNC), [Xserver XSDL](https://play.google.com/store/apps/details?id=x.org.server) or [Termux:X11](https://GitHub.com/termux/termux-x11) for Display 
 
 #### Video tutorial
 
@@ -24,59 +24,17 @@ bash install.sh
 udroid --install
 ```
 
-#### Basic Usage
 
-| **Command**                | **Usage**                                                                                                               |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `udroid`                   | To login to shell                                                                                                       |
-| `udroid upgrade`           | to upgrade fs or to get new features if available                                                                       |
-| `startvnc`                 | start vncserver at port `1` (you can change default port by exporting env varaible `DEFAULT_VNC_PORT` to a port number) |
-| `udroid stopvnc`           | stop vncserver at given or default port `1`                                                                             |
-| `udroid --enable-dbus`     | To start udroid with dbus hack enabled                                                                                  |
-| `udroid --enable-dbus-vnc` | To start vnc session with dbus hack enabled                                                                             |
-
-#### Env Variables
-
-* `DEFAULT_VNC_PORT` to set vnc port for scripts
-* `HIPPO_BRANCH` to set custom branch for cloning code
-
-#### Audio
-
-Pulseaudio starts everytime you invoke start commands with `udroid`
-
-> You can start audio manually with this command
-
+#### Alt way to login
 ```bash
-pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" --exit-idle-time=-1
+proot-distro login udroid --bind /dev/null:/proc/sys/kernel/cap_last_cap
 ```
 
-#### Default passwds for XFCE4
-
-|                | password |
-| -------------- | -------- |
-| udroid user    | `secret` |
-| vncserver root | `secret` |
-
-#### Setting up Xwayland manually
-
-First up of all install Termux-x11 from above link, in termux use
-
+#### Uninstalling 
+For uninstalling rootfs you can use
 ```bash
-XDG_RUNTIME_DIR=$PREFIX/bin Xwayland -ac :1 > /dev/null &
+proot-distro remove udroid
 ```
+Downloaded Tarballs are stored in `$PREFIX/var/lib/proot-distro/dlcache`, you can remove it too.
 
-This time start udroid with `--shared-tmp`
 
-```bash
-proot-distro login udroid --shared-tmp
-```
-###### or
-```bash
-udroid --shared-tmp
-```
-
-And then start Xfce4 on Xwayland via
-
-```
-DISPLAY=:1 xfce4-session
-```
