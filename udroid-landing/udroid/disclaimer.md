@@ -1,49 +1,48 @@
-# 👀 Disclaimer
+# ⚠️ Disclaimer
 
 
 
-### Note & Disclaimer!
 
-**A note before you try**
+**📝 Note before trying**
 
-* As lot of it is pre-installed you can login and start right after you install.
-* You need 5-6gb free space and stable internet for installing.
-* As this runs on termux and on software rendering so performance clearly depends on CPU, ram and storage read-write speed.
-* Consider not to try heavy apps unless you got a good device.
-* If you have any issues or suggestions make sure i know at https://github.com/RandomCoderOrg/ubuntu-on-android/issue (create an issue)
+* Since many of them are preinstalled, you can log in and get started right after installation.
+* To install, you need 5-6 GB of free space and a stable Internet.
+* Since this works on termux and on software rendering, the performance is clearly dependent on the read/write speed, CPU, RAM, and storage.
+* Don't try heavy apps if you don't have a good device.
+* If you have any questions or suggestions please make sure I know at https://github.com/RandomCoderOrg/ubuntu-on-android/issue (post issue)
 
-**Disclaimer**
+**⚠️ Disclaimer**
 
-* We don't work with any company or organization of ubuntu or any third-party sources that took in making fs(but we are welcome).
-* This project works by complying with SElinux android. and all aim of the project is just to run Linux on android without direct root with a twist and this project improves time by time with your support and motivation.
-* the Linux you trying to install from this repo is not fully functional in the target space because of the SElinux policies, and increasing requirement in Linux requirements and also because the project is set to run with `ptrace()` a low-level access in android kernel
-* Graphic performance is bad in vnc but a better to experience a smooth session is termux:wayland app. check this [doc](https://github.com/RandomCoderOrg/ubuntu-on-android/wiki/XWayland-in-proot)&#x20;
-* This project comes without warranties or data protection
-* The Linux you're trying to install from this repo is not fully functional in the target space because of the SELinux policies, and increasing requirement in Linux requirements, and also because the project is set to run with ptrace() low-level access in android kernel
-* That lead to:
-* No direct access to hardware, fluctuations in services, performance overheads, sudo issues etc.
+* We do not work with any Ubuntu company or organization or any third party that contributed to fs (but we welcome you).
+* This project works according to SElinux android. and the whole goal of the project is to just run Linux on Android without direct pivot root and this project gets better over time with your support and motivation.
+* The Linux you are trying to install from this repository is not fully functional in the target space due to SElinux policies and increasing Linux requirements, and because the project is configured to run with low-level ptrace () access. in android core
+* Graphics performance in vnc is poor, but it is better to experience a smooth session - this is termux: wayland app. check this [doc](https://github.com/RandomCoderOrg/ubuntu-on-android/wiki/XWayland-in-proot)
+* This project comes without warranty or data protection.
+* The Linux you are trying to install from this repository is not fully functional in the target space due to SELinux policies and increasing Linux requirements, and because the project is set to work with ptrace () at a low level. access in android kernel
+* This leads to:
+* No direct hardware access, service fluctuations, performance overhead, sudo issues, etc.
 
-**Display**
+**🖥️ Display**
 
-* Access to display/control Desktop environment can be accomplished by various methods like
-* Termux:Wayland **Recommended**
+* The display / control of the desktop environment can be accessed in a variety of ways, for example
+• Termux: Wayland **Recommended**
 * xRDP
-* Vncserver ( RealVnc Viewer, Bvnc, Nethunter Vnc etc )
+* Vncserver (RealVnc Viewer, Bvnc, Nethunter Vnc, etc.)
 * Xserver XSDL
 
-**Audio**
+**🔊 Audio**
 
-* Audio works by enabling pulseserver with a tcp reciver module at `127.0.0.1` and `udroid` manager takes care on starting audio service ( additional setup mamy require for some apps ).
+* Audio works by turning on the pulse server with tcp receiver module at 127.0.0.1 and the udroid manager will take care of starting the audio service (some applications require additional configuration).
 
-**HID interfaces**
+**🖱️ HID Interfaces**
 
-* Keyboard and mouse emulation depends on apps you use to access desktop environment. Bvnc/nethunter KEX app provides better interface with hardware and mouse
+* Keyboard and mouse emulation depends on the applications you use to access the desktop environment. Bvnc / nethunter KEX app provides the best hardware and mouse interface.
 
-**Graphics**
+**🌆 Graphics**
 
-* For this time being there is no standardised way of accessing or using device GPU at its full potential so llvm pipes are used! (OpenGL version may depend on device OS). Most of the solutions are tricks to get more performence or vendor specific implementaions (like kernel graphics support layer/DRI ).
-* Best way to experience native Linux like performence is using Termux-X11 app which is wayland port to android
+* There is currently no standardized way to access or fully utilize a GPU device, so llvm channels are used! (OpenGL version may vary depending on device OS). Most of the solutions are vendor specific performance or implementation gimmicks (such as kernel graphics / DRI support).
+* The best way to experience the performance of native Linux is to use the Termux-X11 app, which is an Android port.
 
-**Others**
+**🛠️ Other**
 
-* PRoot for android is still in developing stage and not ready for using daily life linux. all the linux codes and apps are not devoloped for PRoot. popular apps like snap flatpack which depends on Systemd (which is not possible without root and Hallium project in android) wont work. proot on android platform is devoloping mostly by the efforts of termux and many random devolopers and a big part of linux/android user community. this projects is also result of so many experiments and a mixture of hacks and tricks to start things in android.
+* PRoot for Android is still under development and not ready for everyday Linux use. all Linux codes and applications are not intended for PRoot. popular apps like Snap Flatpack that depend on Systemd (which is impossible without root and the Hallium project on Android) will not work. Proot on the Android platform is being developed primarily through the efforts of termux and many casual developers, as well as a significant portion of the Linux / Android user community. This project is also the result of a lot of experimentation and a combination of tricks and gimmicks to get anything up and running on Android.
