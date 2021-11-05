@@ -30,5 +30,3 @@ For uninstalling rootfs you can use
 proot-distro remove udroid
 ```
 Downloaded Tarballs are stored in `$PREFIX/var/lib/proot-distro/dlcache`, you can remove it too.
-
-
