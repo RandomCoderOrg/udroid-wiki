@@ -24,12 +24,6 @@ bash install.sh
 udroid --install
 ```
 
-
-#### Alt way to login
-```bash
-proot-distro login udroid --bind /dev/null:/proc/sys/kernel/cap_last_cap
-```
-
 #### Uninstalling 
 For uninstalling rootfs you can use
 ```bash
