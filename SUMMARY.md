@@ -7,4 +7,4 @@
   
 * [📖 Installation & Usage](udroid-landing/quick-installation-and-usage.md)
   * [👩‍💻 Basic Usage](udroid-landing/basic-usage.md)
-  * [🔊 Setting up sound](udroid-landing/setting-up-sound.md)
+  * [🔊 Audio](udroid-landing/setting-up-sound.md)
