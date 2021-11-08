@@ -1,4 +1,4 @@
-# ⚠️ Disclaimer
+# ⚠ Disclaimer
 
 **📝 Note before trying**
 
