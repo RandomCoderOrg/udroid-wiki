@@ -1,5 +1,5 @@
 
-## 🔊  Audio 
+# 🔉 Audio 
 pulseaudio starts everytime you invoke start commands with `udroid`
 
 > You can start audio manually with this command
