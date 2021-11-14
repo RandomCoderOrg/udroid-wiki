@@ -9,3 +9,4 @@
   * [🖥️ Display](udroid-landing/setting-up-gui.md)
   * [🔉 Audio](udroid-landing/setting-up-sound.md)
 * [👩🏻‍🔧 Tips & Tricks](udroid-landing/tips-&-tricks.md)
+  * [🦊 Fixing Firefox Sound](udroid-landing/fixing-firefox-sound.md)
