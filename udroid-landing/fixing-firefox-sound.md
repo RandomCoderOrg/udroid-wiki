@@ -1,3 +1,7 @@
+---
+description: guide for fixing sound in Firefox
+---
+
 # 🦊 Fixing Firefox Sound
 
 Well if you're trying to play youtube or any other web music player inside firefox in it, probabily sound will not work even though PulseAudio is running. It can be fixed easily, just follow the below steps.

@@ -6,3 +6,4 @@ description: >-
 
 # 👩🏻‍🔧 Tips & Tricks
 
+![](../.gitbook/assets/TipsAndTricksTutorialsGIF.gif)

@@ -1,3 +1,7 @@
+---
+description: limits & warnings
+---
+
 # ⚠ Disclaimer
 
 **📝 Note before trying**

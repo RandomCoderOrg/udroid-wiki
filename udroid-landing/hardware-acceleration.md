@@ -1,6 +1,8 @@
-# 📺 Hardware Acceleration
+---
+description: achieving HW acceleration in termux
+---
 
-#### Important Note
+# 📺 Hardware Acceleration
 
 {% hint style="warning" %}
 This is fully experimental and not finalized in termux-x11 release yet. You might face glitches or rendering issues with it. Or full app crash on open

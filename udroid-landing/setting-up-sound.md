@@ -1,3 +1,7 @@
+---
+description: setting up audio in termux proot environment
+---
+
 # 🔊 Audio
 
 pulseaudio starts every time you invoke start commands with `udroid`

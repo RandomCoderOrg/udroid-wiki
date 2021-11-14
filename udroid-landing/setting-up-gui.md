@@ -1,3 +1,7 @@
+---
+description: Options to see your udroid/termux proot Desktop Environment
+---
+
 # 🖥️ Display
 
 ### Setting up VNC
