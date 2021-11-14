@@ -9,7 +9,7 @@ coverY: 0
 
 ![a rendered image showing udroid ubuntu mate desktop environment running on smartphone](<.gitbook/assets/banner (1).jpg>)
 
-### Ubuntu-21.04 on android
+## Ubuntu-21.04 on android
 
 Ubuntu-on-android aims to run ubuntu with pre-installed Desktop Environment, development tools, and software on top of android without root with the help of proot in termux application. This project is just like any other Linux on android projects but with aim of making it easy for end-user on setting up Linux.
 
@@ -23,8 +23,8 @@ codename = `udroid`
 | ------ | ------------------------------------------------------------------- |
 | arm64  | ![stat](https://img.shields.io/badge/-installable-brightgreen)      |
 | armv7l | ![stat](https://img.shields.io/badge/-installable-brightgreen)      |
-| armv8l | ![stat](https://img.shields.io/badge/-partially%20supported-orange) |
 | amd64  | ![](https://img.shields.io/badge/-inprogress-blue)                  |
+| armv8l | ![stat](https://img.shields.io/badge/-partially%20supported-orange) |
 | Others | `not started`                                                       |
 
 ### Some Screenshot

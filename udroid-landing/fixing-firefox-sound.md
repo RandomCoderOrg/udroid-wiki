@@ -14,4 +14,6 @@ Then search "sandbox" and do the same changes marked in last screenshot and rest
 
 ![](<../.gitbook/assets/firefox 2.jpg>)
 
+{% hint style="success" %}
 The Sound will work now.
+{% endhint %}
