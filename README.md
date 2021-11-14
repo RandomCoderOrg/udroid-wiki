@@ -44,3 +44,7 @@ Dev #1 = [Gxmersam](https://github.com/GxmerSam)
 ### License
 
 MIT Copyright (c) 2021 Saicharan Kandukuri
+
+{% content-ref url="udroid-landing/quick-installation-and-usage.md" %}
+[quick-installation-and-usage.md](udroid-landing/quick-installation-and-usage.md)
+{% endcontent-ref %}
