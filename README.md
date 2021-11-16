@@ -13,7 +13,7 @@ coverY: 0
 
 Ubuntu-on-android aims to run ubuntu with pre-installed Desktop Environment, development tools, and software on top of android without root with the help of proot in termux application. This project is just like any other Linux on android projects but with aim of making it easy for end-user on setting up Linux.
 
-![img2](https://badges.frapsoft.com/os/v1/open-source.svg?v=103) [![Support Server](https://img.shields.io/discord/892727774828199976?color=blue\&label=join%20%23udroid\&logo=discord\&logoColor=white\&style=for-the-badge)](https://discord.gg/h7wZ9BfbU9) [![Join the chat at https://gitter.im/ubuntu-on-android/community](https://badges.gitter.im/ubuntu-on-android/community.svg)](https://gitter.im/ubuntu-on-android/community)[![CodeFactor](https://www.codefactor.io/repository/github/randomcoderorg/ubuntu-on-android/badge)](https://www.codefactor.io/repository/github/randomcoderorg/ubuntu-on-android)
+![img2](https://badges.frapsoft.com/os/v1/open-source.svg?v=103) [![Support Server](https://img.shields.io/discord/892727774828199976?color=blue\&label=join%20%23udroid\&logo=discord\&logoColor=white\&style=for-the-badge)](https://discord.gg/h7wZ9BfbU9) [![CodeFactor](https://www.codefactor.io/repository/github/randomcoderorg/ubuntu-on-android/badge)](https://www.codefactor.io/repository/github/randomcoderorg/ubuntu-on-android)
 
 codename = `udroid`
 
