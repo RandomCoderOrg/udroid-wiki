@@ -68,28 +68,4 @@ sudo service xrdp start
 
 Connect it to `localhost:3389` with RDP client.
 
-## Setting up Xwayland
-
-First in termux install xwayland
-
-```
-pkg install xwayland
-```
-
-Start wayland server with
-
-```
-Xwayland -ac :1 > /dev/null
-```
-
-And then start udroid manually with
-
-```
-proot-distro login udroid --shared-tmp --bind /dev/null:proc/sys/kernel/cap_last_cap
-```
-
-In it, launch desktop with
-
-```
-DISPLAY=:1 startxfce4
-```
+##
