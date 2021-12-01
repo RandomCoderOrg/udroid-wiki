@@ -2,7 +2,7 @@
 description: guide for setting termux-x11 for udroid GUI
 ---
 
-# setting up termux wayland
+# setting up termux-x11
 
 ### Prerequisites
 
@@ -62,10 +62,14 @@ That's all now if you open minimized Termux:x11 app you see xfce4 running
 
 ### Further sources
 
-> https://github.com/RandomCoderOrg/ubuntu-on-android ubuntu-on-android ( udroid )
+Official termux-x11 repo
 
-> https://github.com/termux/termux-x11 Official termux-x11 repo
+{% embed url="https://github.com/termux/termux-x11" %}
 
-> https://github.com/wayland-project/wayland Official wayland sources
+&#x20;Official wayland sources
 
-> https://at.projects.genivi.org/wiki/display/DIRO/Wayland+Application+on+Android Docs Wayland implementation in android
+{% embed url="https://github.com/wayland-project/wayland" %}
+
+&#x20;Docs Wayland implementation in android
+
+{% embed url="https://at.projects.genivi.org/wiki/display/DIRO/Wayland+Application+on+Android" %}

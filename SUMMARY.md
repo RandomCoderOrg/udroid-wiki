@@ -7,7 +7,7 @@
 * [📖 Installation & Usage](udroid-landing/quick-installation-and-usage.md)
   * [👩‍💻 Basic Usage](udroid-landing/basic-usage.md)
   * [🖥️ Display](udroid-landing/quick-installation-and-usage/setting-up-gui/README.md)
-    * [setting up termux wayland](udroid-landing/quick-installation-and-usage/setting-up-gui/termux-x11.md)
+    * [setting up termux-x11](udroid-landing/quick-installation-and-usage/setting-up-gui/termux-x11.md)
   * [🔊 Audio](udroid-landing/setting-up-sound.md)
   * [📺 Hardware Acceleration](udroid-landing/hardware-acceleration.md)
 * [👩🏻‍🔧 Tips & Tricks](udroid-landing/tips-&-tricks.md)
