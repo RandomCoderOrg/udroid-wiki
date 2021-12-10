@@ -18,6 +18,16 @@ pkg install x11-repo -y
 pkg install xwayland termux-x11
 ```
 
+#### Change termux properties
+
+set property `allow-external-apps` to `true` in `~/.termux/termux.properties`
+
+```
+echo 'allow-external-apps = true' >> ~/.termux/termux.properties
+```
+
+> based on [<mark style="color:yellow;">issue 87</mark>](https://github.com/RandomCoderOrg/ubuntu-on-android/issues/87)<mark style="color:yellow;"></mark>
+
 > Setting termux is done ✌️
 
 ### Using Termux-x11 to run `proot-distro` Linux
