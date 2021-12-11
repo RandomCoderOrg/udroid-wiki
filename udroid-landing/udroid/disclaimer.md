@@ -6,6 +6,7 @@ description: limits & warnings
 
 ### **📝 Note before trying**
 
+* **ITS NOT MADE FOR HACKING**. Termux itself is not for hacking, you can't expect/do any kind of hacking in udroid.
 * Since many of them are preinstalled, you can log in and get started right after installation.
 * To install, you need 5-6 GB of free space and a stable Internet.
 * Since this works on termux and on software rendering, the performance is clearly dependent on the read/write speed, CPU, RAM, and storage.
