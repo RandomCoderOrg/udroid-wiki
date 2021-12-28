@@ -1,7 +1,7 @@
 ---
 description: udroid Documentation & details
 cover: >-
-  https://images.unsplash.com/photo-1629654297299-c8506221ca97?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw0fHxsaW51eHxlbnwwfHx8fDE2MzU4NTk1Njc&ixlib=rb-1.2.1&q=85
+  https://raw.githubusercontent.com/RandomCoderOrg/udroid-wiki/wiki-main/.gitbook/assets/20211228_152945.png
 coverY: 0
 ---
 
