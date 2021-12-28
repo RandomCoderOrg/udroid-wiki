@@ -7,7 +7,7 @@ coverY: 0
 
 # 🐧 udroid
 
-![a rendered image showing udroid ubuntu mate desktop environment running on smartphone](<.gitbook/assets/banner (1).jpg>)
+![a rendered image showing udroid ubuntu mate desktop environment running on smartphone](<.gitbook/assets/intro_main.png>)
 
 ## Ubuntu-21.04 on android
 
