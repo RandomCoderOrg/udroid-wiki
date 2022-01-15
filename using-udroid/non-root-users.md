@@ -46,7 +46,7 @@ Now you successfully created a non-root user
 
 ### Adding <mark style="color:blue;">`SUDO`</mark> rules for new user
 
-you may observe that the traditional way for adding a user to the sudo group won't cause sudo daemon service can't start in proot. but adding rules to `sudoers.d` will do the job as a workaround
+you may observe that the traditional way for adding a user to the sudo group won't work cause sudo daemon service can't start in proot. but adding rules to `sudoers.d` will do the job as a workaround
 
 to do this add username to variable
 
