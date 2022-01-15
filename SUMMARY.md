@@ -15,3 +15,7 @@
   * [🦊 Fixing Firefox Sound](udroid-landing/fixing-firefox-sound.md)
 * [💳 Credits](udroid-landing/credits.md)
   * [💀 The End](udroid-landing/the-end.md)
+
+## 🥷 using udroid
+
+* [🔓 Non-root Users](using-udroid/non-root-users.md)
