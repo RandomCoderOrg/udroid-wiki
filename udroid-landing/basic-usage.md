@@ -8,8 +8,6 @@ description: udroid command line options for basic usage
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | `udroid`                   | To login to shell                                                                                                       |
 | `udroid upgrade`           | to upgrade fs or to get new features if available                                                                       |
-<!-- | `startvnc`                 | start vncserver at port `1` (you can change default port by exporting env varaible `DEFAULT_VNC_PORT` to a port number) |
-| `udroid stopvnc`           | stop vncserver at given or default port `1`                                                                             | -->
 | `udroid --enable-dbus`     | To start udroid with dbus hack enabled                                                                                  |
 | `udroid --enable-dbus-vnc` | To start vnc session with dbus hack enabled                                                                             |
 
