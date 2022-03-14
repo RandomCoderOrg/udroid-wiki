@@ -4,20 +4,37 @@ description: udroid command line options for basic usage
 
 # 👩‍💻 Basic Usage
 
-| **Command**                | **Usage**                                                                                                               |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `udroid`                   | To login to shell                                                                                                       |
-| `udroid upgrade`           | to upgrade fs or to get new features if available                                                                       |
-| `udroid --enable-dbus`     | To start udroid with dbus hack enabled                                                                                  |
-| `udroid --enable-dbus-vnc` | To start vnc session with dbus hack enabled                                                                             |
+| **Command**           | **Usage**                                         |
+| --------------------- | ------------------------------------------------- |
+| `udroid -l <DE_name>` | To Login to specific distro                       |
+| `udroid -S`           | to upgrade fs or to get new features if available |
+| `udroid -i <DE_name>` | To install udroid suite of DE name specified      |
 
 **Environment Variables**
 
-* `DEFAULT_VNC_PORT` to set vnc port for scripts
-* `HIPPO_BRANCH` to set custom branch for cloning code
+* `OVERRIDE_REMOTE_PLUGIN_DIR` to point plugin directory name for the installation
+* `UDROID_SUITE` to change default suite name for login
 
-## Alt way to login
+> refer [https://github.com/RandomCoderOrg/ubuntu-on-android/tree/modified/pd-plugins](https://github.com/RandomCoderOrg/ubuntu-on-android/tree/modified/pd-plugins)\
+> for directory name
+
+#### Examples
+
+* To install default `xfce4` distro
 
 ```bash
-proot-distro login udroid --bind /dev/null:/proc/sys/kernel/cap_last_cap
+udroid -i xfce4
 ```
+
+* To install a different suite `impish`
+
+```bash
+export OVERRIDE_REMOTE_PLUGIN_DIR=impish
+export UDROID_SUITE=impish
+udroid -i xfce4
+udroid -l xfce4
+```
+
+{% hint style="info" %}
+by default /tmp is shared with termux and dbus fix is hardcoded
+{% endhint %}
