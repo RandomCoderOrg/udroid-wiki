@@ -13,6 +13,7 @@
 * [👩🏻‍🔧 Tips & Tricks](udroid-landing/tips-&-tricks.md)
   * [🎮 Playing Games](udroid-landing/playing-games.md)
   * [🦊 Fixing Firefox Sound](udroid-landing/fixing-firefox-sound.md)
+  * [📇 External Sdcard Access](udroid-landing/tips-and-tricks/external-sdcard-access.md)
 * [💳 Credits](udroid-landing/credits.md)
   * [💀 The End](udroid-landing/the-end.md)
 
