@@ -24,7 +24,7 @@ Assuming the user has already configured platform tools and adb in pc and connec
 
 ### Granting permissions to termux
 
-This method involves granting permission `WRITE_EXTERNAL_STORAGE` and `READ_EXTERNAL_STORAGE` to termux app with adb explicitly, so that termux access external storage via termux. 
+This method involves granting permission `WRITE_EXTERNAL_STORAGE` and `READ_EXTERNAL_STORAGE` to termux app with adb explicitly, so that termux access external storage. 
 
 ```bash
 adb shell pm grant com.termux android.permission.READ_EXTERNAL_STORAGE
