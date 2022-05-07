@@ -1,5 +1,5 @@
 ---
-description: ubuntu Hirsute hippo 21.04 @udroid
+description: ubuntu impish 21.10 @udroid
 ---
 
 # Ubuntu 21.10
