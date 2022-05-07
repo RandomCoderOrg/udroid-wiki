@@ -21,3 +21,11 @@
 ## 🥷 using udroid
 
 * [🔓 Non-root Users](using-udroid/non-root-users.md)
+
+## SUITES
+
+* [Ubuntu 20.04](suites/ubuntu-20.04.md)
+* [Ubuntu 21.04](suites/ubuntu-21.04.md)
+* [Ubuntu 21.10](suites/ubuntu-21.10.md)
+* [Ubuntu 22.04](suites/ubuntu-22.04.md)
+* [Ubuntu 22.10](suites/ubuntu-22.10.md)
