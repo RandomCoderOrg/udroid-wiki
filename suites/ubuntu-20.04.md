@@ -18,11 +18,9 @@ description: ubuntu focal fossa 20.04 @udroid
 
 ### Installation
 
-#### XFCE4
-
-```bash
-udroid --suite focal --install xfce4
-```
+{% hint style="warning" %}
+This distro is no longer supported
+{% endhint %}
 
 ### Release Notes
 

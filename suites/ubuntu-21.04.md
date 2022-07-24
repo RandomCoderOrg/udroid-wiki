@@ -18,11 +18,9 @@ description: ubuntu Hirsute hippo 21.04 @udroid
 
 ### Installation
 
-#### XFCE4
-
-```bash
-udroid --suite hippo --install xfce4
-```
+{% hint style="warning" %}
+This distro is no longer supported
+{% endhint %}
 
 ### Release Notes ( v02-xfce4 )
 

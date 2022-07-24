@@ -14,7 +14,7 @@ description: ubuntu impish 21.10 @udroid
 
 |  SUITE NAME  | XFCE4 | MATE | RAW |
 | :----------: | :---: | :--: | :-: |
-| UBUNTU 21.10 |   ✅   |   ✅  |  -  |
+| UBUNTU 21.10 |   ✅   |   ✅  |  ✅  |
 
 ### Installation
 
