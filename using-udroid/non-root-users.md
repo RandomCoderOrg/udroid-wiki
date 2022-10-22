@@ -57,7 +57,7 @@ username="ubuntu"
 then add sudo rules with this command
 
 ```bash
-echo $username ALL=\(root\) ALL:ALL > /etc/sudoers.d/$username
+echo $username ALL=\(root\) ALL > /etc/sudoers.d/$username
 chmod 0440 /etc/sudoers.d/$username
 ```
 
