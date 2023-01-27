@@ -1,8 +1,8 @@
 ---
-description: ubuntu Jammy 22.04 @udroid
+description: ubuntu Jammy 22.04 LTS @udroid
 ---
 
-# Ubuntu 22.04
+# Ubuntu 22.04 LTS
 
 ### Prebuild support Table
 
@@ -12,9 +12,9 @@ description: ubuntu Jammy 22.04 @udroid
 >
 > "✅"  -> Supported and avalible to install
 
-|  SUITE NAME  | XFCE4 | MATE | RAW |
-| :----------: | :---: | :--: | :-: |
-| UBUNTU 21.10 |   -   |   -  |  ✅  |
+|  SUITE NAME  | XFCE4 | Gnome (42) | MATE | RAW |
+| :----------: | :---: | :--------: | :--: | --- |
+| UBUNTU 21.10 |   ✅   |          ✅ |   -  | ✅   |
 
 ### Installation
 
