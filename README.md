@@ -37,9 +37,9 @@ DEV #0 = [Saicharankandukuri](https://github.com/SaicharanKandukuri)
 
 {% embed url="https://github.com/SaicharanKandukuri" %}
 
-Dev #1 = [SlimSam](https://github.com/slimsam4u)
+Dev #1 = [Сэмми](https://github.com/b1tchysam)
 
-{% embed url="https://github.com/slimsam4u" %}
+{% embed url="https://github.com/b1tchysam" %}
 
 ### License
 
