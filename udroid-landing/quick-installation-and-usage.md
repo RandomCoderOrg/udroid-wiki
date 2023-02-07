@@ -9,9 +9,6 @@ description: this is how you can install udroid in termux
 * Get termux from [termux.com](https://termux.com) or [F-Droid.](https://f-droid.org/en/packages/com.termux/)
 * [Vnc Viewer](https://play.google.com/store/apps/details?id=com.iiordanov.freebVNC), [Xserver XSDL](https://play.google.com/store/apps/details?id=x.org.server) or [Termux:X11](https://github.com/termux/termux-x11) for Display
 
-#### Video tutorial
-
-{% embed url="https://youtu.be/iVF0swfqsKo" %}
 
 #### Getting Sources and install scripts
 
