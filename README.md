@@ -1,7 +1,7 @@
 ---
 description: udroid Documentation & details
 cover: >-
-  https://raw.githubusercontent.com/RandomCoderOrg/udroid-wiki/wiki-main/.gitbook/assets/20211228_152945.png
+  https://raw.githubusercontent.com/RandomCoderOrg/udroid-wiki/wiki-main/.gitbook/assets/cover-new.jpg
 coverY: 0
 ---
 
@@ -19,8 +19,12 @@ codename = `udroid`
 
 ### Some Screenshot
 
-![screenshot showing udroid with pre-installed xfce4 using libreoffice draw app](.gitbook/assets/three.png) ![screenshot showing udroid with pre-installed xfce4 using vscode and glxgeras running](<.gitbook/assets/four (1).png>) ![screenshot showing ubuntu mate](<.gitbook/assets/IMG\_20211014\_084106 (1).jpg>)
-
+**->** `jammy:gnome`
+![udroid gnome](https://raw.githubusercontent.com/RandomCoderOrg/ubuntu-on-android/modified/assets/jammy_gnome.png)
+**->** `jammy:xfce4`
+![udroid xfce4 running glxgers & vscode](https://cdn.discordapp.com/attachments/892736843349626921/1062796366222458944/image0.jpg)
+**->** `jammy:mate`
+![udroid mate screenshot](https://raw.githubusercontent.com/RandomCoderOrg/ubuntu-on-android/modified/assets/IMG_20211014_084106.jpg)
 ### Developers & credits
 
 DEV #0 = [Saicharankandukuri](https://github.com/SaicharanKandukuri)
