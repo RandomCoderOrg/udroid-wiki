@@ -6,11 +6,11 @@ description: ubuntu focal fossa 20.04 @udroid
 
 ### Prebuild support Table
 
-> &#x20; "-"    -> Supported but not released yet
+> &#x20; "-"  -> Supported but not released yet.
 >
-> "❌"  -> Not supported
+> "❌" -> Not supported.
 >
-> "✅"  -> Supported and avalible to install
+> "✅" -> Supported and avalible to install
 
 |  SUITE NAME  | XFCE4 | MATE | RAW |
 | :----------: | :---: | :--: | :-: |
@@ -18,9 +18,7 @@ description: ubuntu focal fossa 20.04 @udroid
 
 ### Installation
 
-{% hint style="warning" %}
-This distro is no longer supported
-{% endhint %}
+
 
 ### Release Notes
 
@@ -779,8 +777,3 @@ ii  libsmartcols1:arm64                  2.36.1-7ubuntu2             ...ROO
 
 </details>
 
-#### RootFS links
-
-| Architecture |                                                                                                                           Link                                                                                                                           |
-| :----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|   `aarch64`  | [https://github.com/RandomCoderOrg/ubuntu-on-android/releases/download/v01-xfce4/ubuntu-21.04-xfce4-rootfs-v01-arm64.tar.gz](https://github.com/RandomCoderOrg/ubuntu-on-android/releases/download/v01-xfce4/ubuntu-21.04-xfce4-rootfs-v01-arm64.tar.gz) |

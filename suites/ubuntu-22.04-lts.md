@@ -6,11 +6,11 @@ description: ubuntu Jammy 22.04 LTS @udroid
 
 ### Prebuild support Table
 
-> &#x20; "-"    -> Supported but not released yet
+> &#x20; "-"  -> Supported but not released yet.
 >
-> "❌"  -> Not supported
+> "❌" -> Not supported.
 >
-> "✅"  -> Supported and avalible to install
+> "✅" -> Supported and avalible to install
 
 |  SUITE NAME  | XFCE4 | Gnome (42) | MATE | RAW |
 | :----------: | :---: | :--------: | :--: | --- |
@@ -21,7 +21,25 @@ description: ubuntu Jammy 22.04 LTS @udroid
 #### RAW
 
 ```bash
-udroid --suite jammy --install raw
+udroid install jammy:raw
+```
+
+#### XFCE4e
+
+```
+udroid install jammy:xfce4
+```
+
+#### Gnome 42
+
+```
+udroid install jammy:gnome
+```
+
+#### Mate
+
+```bash
+udroid install jammy:mate
 ```
 
 ### Release Notes
@@ -29,12 +47,4 @@ udroid --suite jammy --install raw
 {% hint style="info" %}
 None
 {% endhint %}
-
-> #### RootFS links
-
-| Architecture |                                                      Raw                                                      |
-| :----------: | :-----------------------------------------------------------------------------------------------------------: |
-|   `aarch64`  | [Download RAW arm64](https://github.com/RandomCoderOrg/fs-cook/releases/download/v1.3/jammy-raw-arm64.tar.gz) |
-|    `armhf`   | [Download RAW armhf](https://github.com/RandomCoderOrg/fs-cook/releases/download/v1.3/jammy-raw-armhf.tar.gz) |
-|    `amd64`   | [Download RAW amd64](https://github.com/RandomCoderOrg/fs-cook/releases/download/v1.3/jammy-raw-amd64.tar.gz) |
 

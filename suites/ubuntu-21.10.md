@@ -4,13 +4,17 @@ description: ubuntu impish 21.10 @udroid
 
 # Ubuntu 21.10
 
-### Prebuild support Table
+{% hint style="danger" %}
+This suite is no longer supported and archived.
+{% endhint %}
 
-> &#x20; "-"    -> Supported but not released yet
+### Prebuild support Table.
+
+> &#x20; "-"  -> Supported but not released yet.
 >
-> "❌"  -> Not supported
+> "❌" -> Not supported.
 >
-> "✅"  -> Supported and avalible to install
+> "✅" -> Supported and avalible to install
 
 |  SUITE NAME  | XFCE4 | MATE | RAW |
 | :----------: | :---: | :--: | :-: |

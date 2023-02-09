@@ -6,7 +6,15 @@ description: setting up audio in termux proot environment
 
 pulseaudio starts every time you invoke start commands with `udroid`
 
-> You can start audio manually with this command
+To disable pulse audio execution on login use
+
+```
+udroid login --no-pulseserver <suite>
+```
+
+#### Manual way to start pulseaudio
+
+> You can start audio server manually in termux with this command.
 
 ```bash
 pulseaudio --start \

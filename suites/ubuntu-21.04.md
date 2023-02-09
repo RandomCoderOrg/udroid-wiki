@@ -4,23 +4,23 @@ description: ubuntu Hirsute hippo 21.04 @udroid
 
 # Ubuntu 21.04
 
+{% hint style="danger" %}
+This suite is no longer supported and archived.
+{% endhint %}
+
 ### Prebuild support Table
 
-> &#x20; "-"    -> Supported but not released yet
+> &#x20; "-"  -> Supported but not released yet.
 >
-> "❌"  -> Not supported
+> "❌" -> Not supported.
 >
-> "✅"  -> Supported and avalible to install
+> "✅" -> Supported and avalible to install
 
 |  SUITE NAME  | XFCE4 | MATE | RAW |
 | :----------: | :---: | :--: | :-: |
 | UBUNTU 21.04 |   ✅   |   ❌  |  -  |
 
 ### Installation
-
-{% hint style="warning" %}
-This distro is no longer supported
-{% endhint %}
 
 ### Release Notes ( v02-xfce4 )
 

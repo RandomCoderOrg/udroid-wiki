@@ -1,8 +1,8 @@
 ---
-description: ubuntu Kinetic 22.10 @udroid
+description: ubuntu Lunar 22.10 @udroid
 ---
 
-# Ubuntu 22.10
+# Ubuntu 23.04
 
 ### Prebuild support Table
 
@@ -14,10 +14,10 @@ description: ubuntu Kinetic 22.10 @udroid
 
 |  SUITE NAME  | XFCE4 | Gnome (42) | MATE | RAW |
 | :----------: | :---: | :--------: | :--: | --- |
-| UBUNTU 22.10 |   -   |          - |   -  | ✅   |
+| UBUNTU 23.04 |   -   |          - |   -  | ✅   |
 
 #### RAW
 
 ```bash
-udroid install kinetic:raw
+udroid install lunar:raw
 ```

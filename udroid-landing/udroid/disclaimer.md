@@ -1,5 +1,6 @@
 ---
 description: limits & warnings
+layout: editorial
 ---
 
 # ⚠ Disclaimer
