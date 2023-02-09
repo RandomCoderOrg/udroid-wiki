@@ -3,7 +3,6 @@ description: udroid Documentation & details
 cover: >-
   https://raw.githubusercontent.com/RandomCoderOrg/udroid-wiki/wiki-main/.gitbook/assets/20211228_152945.png
 coverY: 0
-layout: landing
 ---
 
 # 🐧 udroid
