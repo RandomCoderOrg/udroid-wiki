@@ -31,8 +31,6 @@ DEV #0 = [Saicharankandukuri](https://github.com/SaicharanKandukuri)
 
 {% embed url="https://github.com/SaicharanKandukuri" %}
 
-Dev #1 = [Сэмми](https://github.com/c4ttysam)
-
 {% embed url="https://github.com/c4ttysam" %}
 
 And all the ⚒️contributors, ❤️‍🔥stargazer, 🌐 Watchers
