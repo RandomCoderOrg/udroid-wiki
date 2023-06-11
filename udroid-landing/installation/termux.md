@@ -1,5 +1,5 @@
 # Installing Termux
-Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager. ![src](https://termux.dev/en/)
+[Termux](https://termux.dev/en/) is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager. 
 
 Download Termux debug builds from ![here](https://github.com/termux/termux-app/actions/workflows/debug_build.yml)
 ![image](https://github.com/RandomCoderOrg/udroid-wiki/assets/127286831/0c42018d-bffc-437a-8b89-cf276c8ee8f1)
