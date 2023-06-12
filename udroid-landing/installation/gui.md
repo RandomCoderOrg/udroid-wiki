@@ -1,6 +1,8 @@
 
 ## VNC (Virtual Network Computing)
 VNC stands for Virtual Network Computing. It is across-platform screen sharing system that was created to remotely control another computer. This means that a computer's screen, keyboard, and mouse can be used from a distance by a remote user from a secondary device as though they were sitting right in front of it. It is the primary method used by udroid for GUI.
+![image](https://github.com/RandomCoderOrg/udroid-wiki/assets/127286831/7cdb49fd-26e3-4ed9-b612-c1cc4425732b)
+
 ### For beginners
 Udroid comes with scripts (`startvnc` and `stopvnc`) to start or stop vnc server with ease.
 After creating a server, open a VNC viewer app and connect to `localhost:1`
