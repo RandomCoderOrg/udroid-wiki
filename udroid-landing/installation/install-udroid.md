@@ -11,10 +11,9 @@ cd fs-manager-udroid
 bash install.sh
 ```
 
-then use `udroid --list` to get a table of available distros and the names of their suites ( something like **jammy:xfce4** ) then use `udroid install jammy:xfce4` (or the suite you like) to install.
+Use `udroid --list` to get a tlist of available rootfs( like then use `udroid install that:thing` to install.
 
-Here are some examples that show both install and login commands of popular distros
-
+Some examples
 {% tabs %}
 {% tab title="No GUI" %}
 ```bash
