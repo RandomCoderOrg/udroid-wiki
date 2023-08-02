@@ -1,7 +1,3 @@
----
-description: this is how you can install udroid in termux
----
-
 # 📖 Installation & Usage
 
 ### Before installing:-
@@ -9,17 +5,20 @@ description: this is how you can install udroid in termux
 * Get termux from [termux.com](https://termux.com) or [F-Droid.](https://f-droid.org/en/packages/com.termux/)
 * [Vnc Viewer](https://play.google.com/store/apps/details?id=com.iiordanov.freebVNC), [Xserver XSDL](https://play.google.com/store/apps/details?id=x.org.server), or [Termux: X11](https://github.com/termux/termux-x11) for Display
 
-#### Quick Install
+### Quick Install
+
+{% hint style="info" %}
+Install all dependencies and developer-selected Distro
+{% endhint %}
 
 ```bash
 . <(curl -Ls https://bit.ly/udroid-installer)
 ```
 
-Install all dependencies and the best current distro
-
 #### From sources (manual install)
 
 ```bash
+apt update && apt install git -y
 git clone https://github.com/RandomCoderOrg/fs-manager-udroid
 cd fs-manager-udroid
 bash install.sh
@@ -45,12 +44,14 @@ udroid login jammy:gnome
 {% endtab %}
 {% endtabs %}
 
-#### Removing a distro
+### Removing a Distro
 
-udroid cli tool has argument `remove` that takes care of wiping the suite installation from device, and `--clear-cache` option to remove any download (if present) for max release of device storage &#x20;
+udroid cli tool has an argument `remove` that takes care of wiping the suite installation from the device, and `--clear-cache` option to remove any download (if present) for max release of device storage &#x20;
 
-```
+{% code title="Example:" fullWidth="false" %}
+```bash
 udroid remove jammy:xfce4
 udroid --clear-cache
 ```
+{% endcode %}
 
