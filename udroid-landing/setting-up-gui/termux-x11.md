@@ -1,4 +1,4 @@
-saaSA\---
+---
 description: guide for setting termux-x11 for udroid GUI
 ---
 
