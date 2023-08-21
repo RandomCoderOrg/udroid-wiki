@@ -1,4 +1,4 @@
----
+saaSA\---
 description: guide for setting termux-x11 for udroid GUI
 ---
 
@@ -20,7 +20,7 @@ The wayland sockets is the way for the graphical applications to communicate wit
 
 ### 3. Setup Instructions
 
-Get xwayland and termux-x11 from x11 repository
+Get termux-x11 from x11 repository
 
 ```bash
 pkg install x11-repo -y
@@ -33,7 +33,7 @@ pkg install termux-x11-nightly
 Assuming you installed ubuntu with proot-distro with xfce4 installed, in termux session execute
 
 ```bash
-termux-x11 DISPLAY=:0
+termux-x11 :0
 ```
 
 this starts termux-x11 with all the required ENV variables
