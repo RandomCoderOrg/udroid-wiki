@@ -24,36 +24,16 @@ Get xwayland and termux-x11 from x11 repository
 
 ```bash
 pkg install x11-repo -y
-pkg install xwayland termux-x11
+pkg install termux-x11-nightly
 ```
 
-Set property `allow-external-apps` to `true` in `~/.termux/termux.properties`
-
-```
-echo 'allow-external-apps = true' >> ~/.termux/termux.properties
-termux-reload-settings
-```
-
-{% hint style="info" %}
-Recommended to restart termux
-{% endhint %}
-
-The zip you installed from[ STEP 2](termux-x11.md#prerequisites) contains a `.deb` file. to start `termux-x11` the server we need to install it in `termux` session
-
-```
-termux-setup-storage
-cp /sdcard/Download/termux-x11.zip ~
-unzip termux-x11.zip
-cd termux-x11
-dpkg -i --force-depends termux-x11.deb
-```
 
 ### 4. Using Termux-x11 to run udroid
 
 Assuming you installed ubuntu with proot-distro with xfce4 installed, in termux session execute
 
 ```bash
-termux-x11
+termux-x11 DISPLAY=:0
 ```
 
 this starts termux-x11 with all the required ENV variables
