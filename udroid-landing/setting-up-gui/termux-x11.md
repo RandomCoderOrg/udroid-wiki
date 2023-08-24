@@ -4,80 +4,86 @@ description: guide for setting termux-x11 for udroid GUI
 
 # setting up termux-x11
 
-Termux:X11 is a termux addon providing android frontend for xwayland. It uses Wayland display protocol, which is aimed to become the successor of the X Window System. Note that it is not a fully fledged wayland server, its like a X system in wayland.
+termux-x11 is a termux addon providing Android frontend for xwayland. It uses the Wayland display protocol, which is aimed to become the successor of the X Window System. Note that it is not a fully-fledged Wayland server, it's like an X system in Wayland.
 
 ### 1. How does it work?
 
-Through its companion package, the executable creates socket through $XDG\_RUNTIME\_DIR in Termux directory by default.
+Through its companion package, the executable creates a socket through $XDG\_RUNTIME\_DIR in the Termux directory by default.
 
-The wayland sockets is the way for the graphical applications to communicate with. Termux X11 applications do not have wayland support yet, this kind of setup may not be straightforward and therefore additional packages should be installed in order for X11 applications to be run in Termux:X11.
+The Wayland sockets are the way for the graphical applications to communicate with. Termux X11 applications do not have Wayland support yet, this kind of setup may not be straightforward and therefore additional packages should be installed in order for X11 applications to be run in termux-x11.
 
 ### 2. Requirements
 
-* Termux from workflows builds
-* Termux:x11 companion app from [<mark style="color:orange;">Github actions</mark>](https://github.com/termux/termux-x11/actions/workflows/debug\_build.yml) ( prefer downloading one with a green tick mark )
-  * <img src="../../.gitbook/assets/image (1).png" alt="" data-size="original">![](<../../.gitbook/assets/image (2).png>)
+* Termux from [f-droid](https://f-droid.org/en/packages/com.termux/) or [termux-dev builds](https://github.com/termux/termux-app/actions/workflows/debug\_build.yml)
+* termux-x11 app from [GitHub releases page](https://github.com/termux/termux-x11/releases)
+  *
+
+      <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### 3. Setup Instructions
 
-Get termux-x11 from x11 repository
+First, we need to set `x11-repo` and then to install `termux-x11-nightly`. These commands below do the job of installing both of them. execute these commands in termux-app ( copy, paste, then enter )
 
 ```bash
-pkg install x11-repo -y
-pkg install termux-x11-nightly
+apt install x11-repo -y
+apt install termux-x11-nightly -y
 ```
 
+### 4. Starting `termux-x11` app
 
-### 4. Using Termux-x11 to run udroid
-
-Assuming you installed ubuntu with proot-distro with xfce4 installed, in termux session execute
+To start `termux-x11` app just use this command.
 
 ```bash
 termux-x11 :0
 ```
 
-this starts termux-x11 with all the required ENV variables
+This launches the termux-x11 app and XWayland server with the display on address `:0`
 
 {% hint style="info" %}
-by default, the Wayland socket is stored in termux `$TMPDIR` so using --shared-tmp binds `/tmp` in proot Linux to `$TMPDIR` of termux app \[ udroid manages to do this by default )
+By default, the Wayland socket is stored in termux **`$TMPDIR`** so using `--shared-tmp` binds `/tmp` in proot Linux to `$TMPDIR` of termux app \[ udroid manages to do this by default )
 {% endhint %}
 
-Log in to your favorite udroid distro
+### 5. Using termux-x11 with UDROID
 
-```bash
-udroid -l xfce4
-```
+udorid launch script takes care of mounting the termux-x11 default socket directory to the suites tmp directory, you just have to export the **DISPLAY** variable to the correct display address and run the application/Desktop environment to show the GUI in termux-x11
 
-Now export `DISPLAY` environment variable with the value `:0`
+### Examples
+
+#### Staring `glxgears`
 
 ```bash
 export DISPLAY=:0
+glxgears
 ```
 
-finally, start your Desktop Environment ( xfce4 works better )
+#### Staring `xfce4`
 
 ```bash
-dbus-launch --exit-with-session startxfce4
+export DIPLAY=:0
+startxfce4
 ```
 
-That's all now if you open minimized Termux:x11 app you see xfce4 running
+#### Staring `gnome`
 
-### 5. Troubleshooting
+```bash
+export DISPLAY=:0
+export XDG_CURRENT_DIR=GNOME
 
-will be updated soon...
+# PATH GNOME issue with proot
+for file in $(find /usr -type f -iname "*login1*"); do mv -v $file "$file.back"; done
 
-### References
+service dbus start
+gnome-shell --x11
+```
 
-Official termux-x11 repo
+{% hint style="info" %}
+Sometimes you may need further tweaks to make program run termux-x11
+
+it may be options, environment variables and etc...
+{% endhint %}
+
+### termux-x11 repo
 
 {% embed url="https://github.com/termux/termux-x11" %}
-
-Official wayland sources
-
-{% embed url="https://github.com/wayland-project/wayland" %}
-
-#### Check this section for suites
-
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
-{% endcontent-ref %}
