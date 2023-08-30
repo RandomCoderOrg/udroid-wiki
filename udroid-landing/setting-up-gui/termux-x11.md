@@ -33,21 +33,21 @@ apt install termux-x11-nightly -y
 
 ### 4. Starting `termux-x11` app
 
-To start `termux-x11` app just use this command.
+Start the termux-x11 app and use this command in termux to start the x11 server
 
 ```bash
-termux-x11 :0
+termux-x11 :0 &
 ```
 
-This launches the termux-x11 app and XWayland server with the display on address `:0`
-
 {% hint style="info" %}
-By default, the Wayland socket is stored in termux **`$TMPDIR`** so using `--shared-tmp` binds `/tmp` in proot Linux to `$TMPDIR` of termux app \[ udroid manages to do this by default )
+`:0` is the display number and `&` is used to stop termux-x11 from locking the terminal
 {% endhint %}
 
 ### 5. Using termux-x11 with UDROID
 
 udorid launch script takes care of mounting the termux-x11 default socket directory to the suites tmp directory, you just have to export the **DISPLAY** variable to the correct display address and run the application/Desktop environment to show the GUI in termux-x11
+
+Login to your distro and try out these examples
 
 ### Examples
 
