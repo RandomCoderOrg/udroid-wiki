@@ -61,7 +61,7 @@ glxgears
 #### Staring `xfce4`
 
 ```bash
-export DIPLAY=:0
+export DISPLAY=:0
 startxfce4
 ```
 
