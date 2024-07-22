@@ -14,7 +14,10 @@ coverY: 0
 >
 > "✅" -> Supported and avalible to install
 
-<table><thead><tr><th width="163.98078462770218" align="center">SUITE NAME</th><th width="150" align="center">XFCE4</th><th width="132">Gnome (42)</th><th width="150" align="center">MATE</th><th align="center">RAW</th></tr></thead><tbody><tr><td align="center">UBUNTU 21.10</td><td align="center">✅</td><td>        ✅</td><td align="center">-</td><td align="center">✅</td></tr></tbody></table>
+<table><thead><tr><th width="163.98078462770218" align="center">SUITE NAME</th><th width="150" align="center">XFCE4</th><th width="132">Gnome (42)</th><th width="150" align="center">MATE</th><th align="center">RAW</th></tr></thead><tbody><tr><td align="center">UBUNTU 22.04</td><td align="center">✅</td  align="center"><td  align="center">✅</td><td  align="center">✅</td><td align="center">✅</td></tbody></table>
+
+### Raw Desktops (Installed but unconfigured)
+<table><thead><tr><th width="163.98078462770218" align="center">SUITE NAME</th><th width="150" align="center">xfce4Raw</th><th width="132">kdeRaw</th><th width="150" align="center">lxqtRaw</th><th align="center">mateRaw</th></tr></thead><tbody><tr><td align="center">UBUNTU 22.04</td><td align="center">✅</td><td  align="center">✅</td><td  align="center">✅</td><td align="center">✅</td></tbody></table>
 
 ### Installation
 
@@ -24,7 +27,7 @@ coverY: 0
 udroid install jammy:raw
 ```
 
-#### XFCE4e
+#### XFCE4
 
 ```
 udroid install jammy:xfce4
@@ -44,7 +47,4 @@ udroid install jammy:mate
 
 ### Release Notes
 
-{% hint style="info" %}
-None
-{% endhint %}
-
+### We are moving to 24.04 ... (NEW LTS)

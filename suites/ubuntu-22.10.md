@@ -4,6 +4,10 @@ description: ubuntu Kinetic 22.10 @udroid
 
 # Ubuntu 22.10
 
+{% hint style="danger" %}
+This suite is no longer supported and archived.
+{% endhint %}
+
 ### Prebuild support Table
 
 > &#x20; "-"  -> Supported but not released yet.
