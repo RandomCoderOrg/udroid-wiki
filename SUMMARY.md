@@ -3,7 +3,7 @@
 ## 🛸 udroid-landing
 
 * [🐧 udroid](README.md)
-  * [⚠ Disclaimer](udroid-landing/udroid/disclaimer.md)
+  * [⚠️ Disclaimer](udroid-landing/udroid/disclaimer.md)
 * [📖 Installation & Usage](udroid-landing/quick-installation-and-usage.md)
 * [🖥️ Display](udroid-landing/setting-up-gui/README.md)
   * [setting up termux-x11](udroid-landing/setting-up-gui/termux-x11.md)
