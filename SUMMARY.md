@@ -20,12 +20,15 @@
 
 ## SUITES
 
-* [Ubuntu 24.10](suites/ubuntu-24.10.md)
-* [Ubuntu 24.04 LTS](suites/ubuntu-24.04-lts.md)
-* [Ubuntu 23.10](suites/ubuntu-23.10.md)
-* [Ubuntu 23.04](suites/ubuntu-23.04.md)
-* [Ubuntu 22.10](suites/ubuntu-22.10.md)
-* [Ubuntu 22.04 LTS](suites/ubuntu-22.04-lts.md)
-* [Ubuntu 21.10](suites/ubuntu-21.10.md)
-* [Ubuntu 21.04](suites/ubuntu-21.04.md)
-* [Ubuntu 20.04 LTS](suites/ubuntu-20.04-lts.md)
+* [Supported suites]
+  * [Ubuntu 24.10](suites/ubuntu-24.10.md)
+  * [Ubuntu 24.04 LTS](suites/ubuntu-24.04-lts.md)
+  * [Ubuntu 22.04 LTS](suites/ubuntu-22.04-lts.md)
+  * [Ubuntu 20.04 LTS](suites/ubuntu-20.04-lts.md)
+
+* [EOL suites]
+  * [Ubuntu 23.10](suites/ubuntu-23.10.md)
+  * [Ubuntu 23.04](suites/ubuntu-23.04.md)
+  * [Ubuntu 22.10](suites/ubuntu-22.10.md)
+  * [Ubuntu 21.10](suites/ubuntu-21.10.md)
+  * [Ubuntu 21.04](suites/ubuntu-21.04.md)
