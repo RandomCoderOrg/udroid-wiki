@@ -4,6 +4,10 @@ description: ubuntu Lunar 23.04 @udroid
 
 # Ubuntu 23.04
 
+{% hint style="danger" %}
+This suite is no longer supported and archived.
+{% endhint %}
+
 ### Prebuild support Table
 
 > &#x20; "-"  -> Supported but not released yet.
