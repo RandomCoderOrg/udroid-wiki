@@ -2,7 +2,7 @@
 description: ubuntu 24.10 -  Oracular
 ---
 
-# Ubuntu 23.10
+# Ubuntu 24.10
 
 ### Prebuild support Table
 

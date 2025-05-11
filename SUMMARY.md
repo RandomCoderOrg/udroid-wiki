@@ -20,6 +20,7 @@
 
 ## SUITES
 
+* [Ubuntu 25.04](suites/ubuntu-25.04.md)
 * [Ubuntu 24.10](suites/ubuntu-24.10.md)
 * [Ubuntu 24.04 LTS](suites/ubuntu-24.04-lts.md)
 * [Ubuntu 22.04 LTS](suites/ubuntu-22.04-lts.md)
