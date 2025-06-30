@@ -2,13 +2,13 @@
 description: Ubuntu 25.10 - questing
 ---
 
-# Ubuntu 25.04
+# Ubuntu 25.10
 
 ### Prebuild support Table
 
 > "-" -> Supported but not released yet.
 >
-> "❌" -> Not supported.
+> "❌" -> Prebuild not supported by udroid.
 >
 > "✅" -> Supported and avalible to install
 
