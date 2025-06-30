@@ -17,5 +17,5 @@ description: Ubuntu 25.10 - questing
 #### RAW
 
 ```bash
-udroid install plucky:raw
+udroid install questing:raw
 ```
