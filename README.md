@@ -25,6 +25,12 @@ Install all dependencies and developer-selected Distro
 . <(curl -Ls https://bit.ly/udroid-installer)
 ```
 
+### Android app
+
+An experimental [uDroid Android app](https://github.com/RandomCoderOrg/udroid-app)
+is in early development. It provides a graphical way to manage Linux systems,
+use the terminal and X11 display, and launch installed Linux applications.
+
 ### Screenshots
 
 | SUITE                                              | Screenshot                                                                                                                              |
