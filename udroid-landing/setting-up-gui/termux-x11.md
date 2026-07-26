@@ -4,13 +4,20 @@ description: guide for setting termux-x11 for udroid GUI
 
 # setting up termux-x11
 
-termux-x11 is a termux addon providing Android frontend for xwayland. It uses the Wayland display protocol, which is aimed to become the successor of the X Window System. Note that it is not a fully-fledged Wayland server, it's like an X system in Wayland.
+Termux:X11 is the official Termux X server add-on for Android. It is a fully
+fledged X server and consists of two parts: the Termux:X11 Android app and its
+companion Termux package.
+
+This guide covers the official
+[termux/termux-x11](https://github.com/termux/termux-x11) project used with a
+uDroid distribution.
 
 ### 1. How does it work?
 
-Through its companion package, the executable creates a socket through $XDG\_RUNTIME\_DIR in the Termux directory by default.
-
-The Wayland sockets are the way for the graphical applications to communicate with. Termux X11 applications do not have Wayland support yet, this kind of setup may not be straightforward and therefore additional packages should be installed in order for X11 applications to be run in termux-x11.
+The companion package starts the Termux:X11 server and creates the X11 socket.
+Linux graphical applications connect to that socket using the display address
+in the `DISPLAY` environment variable. The Android app displays the X server's
+output and handles Android-side input.
 
 ### 2. Requirements
 
@@ -68,7 +75,7 @@ startxfce4
 {% hint style="info" %}
 If XFCE starts but moving windows, opening menus, or scrolling feels slow,
 disable its compositor. See
-[Smooth desktop performance](smooth-desktop-performance.md) for the quick fix,
+[Smooth Termux:X11 desktop performance](smooth-desktop-performance.md) for the quick fix,
 touch-friendly scaling, and the reason this helps on Android.
 {% endhint %}
 

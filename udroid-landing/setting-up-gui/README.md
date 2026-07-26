@@ -5,8 +5,8 @@ description: Options to see your udroid/termux proot Desktop Environment
 # 🖥️ Display
 
 {% hint style="info" %}
-Using Termux:X11 and the desktop feels sluggish? Start with
-[Smooth desktop performance](smooth-desktop-performance.md). Disabling the
+Using the official Termux:X11 app and the desktop feels sluggish? Start with
+[Smooth Termux:X11 desktop performance](smooth-desktop-performance.md). Disabling the
 desktop compositor is often the largest responsiveness improvement on a
 rootless Android display path.
 {% endhint %}

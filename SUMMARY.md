@@ -7,7 +7,7 @@
 * [📖 Installation & Usage](udroid-landing/quick-installation-and-usage.md)
 * [🖥️ Display](udroid-landing/setting-up-gui/README.md)
   * [setting up termux-x11](udroid-landing/setting-up-gui/termux-x11.md)
-  * [Smooth desktop performance](udroid-landing/setting-up-gui/smooth-desktop-performance.md)
+  * [Smooth Termux:X11 performance](udroid-landing/setting-up-gui/smooth-desktop-performance.md)
 * [👩🏻‍🔧 Tips & Tricks](udroid-landing/tips-&-tricks.md)
   * [🦊 Fixing Firefox Sound](udroid-landing/fixing-firefox-sound.md)
   * [📇 External Sdcard Access](udroid-landing/tips-and-tricks/external-sdcard-access.md)
