@@ -65,6 +65,13 @@ export DISPLAY=:0
 startxfce4
 ```
 
+{% hint style="info" %}
+If XFCE starts but moving windows, opening menus, or scrolling feels slow,
+disable its compositor. See
+[Smooth desktop performance](smooth-desktop-performance.md) for the quick fix,
+touch-friendly scaling, and the reason this helps on Android.
+{% endhint %}
+
 #### Staring `gnome`
 
 ```bash

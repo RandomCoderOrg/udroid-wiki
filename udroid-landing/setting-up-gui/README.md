@@ -4,6 +4,13 @@ description: Options to see your udroid/termux proot Desktop Environment
 
 # 🖥️ Display
 
+{% hint style="info" %}
+Using Termux:X11 and the desktop feels sluggish? Start with
+[Smooth desktop performance](smooth-desktop-performance.md). Disabling the
+desktop compositor is often the largest responsiveness improvement on a
+rootless Android display path.
+{% endhint %}
+
 ## Setting up VNC
 
 Vncserver is pre-installed, you can start it manually too instead of `startvnc`.
