@@ -27,8 +27,8 @@ Install all dependencies and developer-selected Distro
 
 ### Android app
 
-An experimental [uDroid Android app](https://github.com/RandomCoderOrg/udroid-app)
-is in early development. It provides a graphical way to manage Linux systems,
+An experimental [uDroid Android app](udroid-app/README.md) is in early
+development. It provides a graphical way to install and manage Linux systems,
 use the terminal and X11 display, and launch installed Linux applications.
 
 ### Screenshots
