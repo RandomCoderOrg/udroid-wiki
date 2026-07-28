@@ -36,8 +36,8 @@ use the terminal and X11 display, and launch installed Linux applications.
 | SUITE                                              | Screenshot                                                                                                                              |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | <mark style="color:orange;">**jammy:gnome**</mark> | ![udroid gnome](https://raw.githubusercontent.com/RandomCoderOrg/ubuntu-on-android/modified/assets/jammy\_gnome.png)                    |
-| <mark style="color:orange;">**jammy:xfce4**</mark> | ![udroid xfce4 running glxgers & vscode](https://cdn.discordapp.com/attachments/892736843349626921/1062796366222458944/image0.jpg)      |
-| <mark style="color:orange;">**jammy:gnome**</mark> | ![udroid mate screenshot](https://raw.githubusercontent.com/RandomCoderOrg/ubuntu-on-android/modified/assets/IMG\_20211014\_084106.jpg) |
+| <mark style="color:orange;">**jammy:xfce4**</mark> | ![udroid xfce4](https://raw.githubusercontent.com/RandomCoderOrg/ubuntu-on-android/modified/assets/jammy\_xfce4.png)      |
+| <mark style="color:orange;">**jammy:gnome**</mark> | ![udroid mate](https://raw.githubusercontent.com/RandomCoderOrg/ubuntu-on-android/modified/assets/IMG\_20211014\_084106.jpg) |
 
 ### Developers & credits
 
