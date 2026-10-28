@@ -26,7 +26,7 @@ udroid install noble:xfce4
 #### GNOME
 
 ```bash
-udroid install noble:gnome
+udroid install noble:gnomeRaw
 ```
 
 #### RAW
