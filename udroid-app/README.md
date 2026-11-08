@@ -4,88 +4,79 @@ description: Install and use the standalone uDroid Android app
 
 # uDroid Android app
 
-uDroid is building a standalone Android app for installing and using Linux
-systems without making a terminal the main interface. The app is currently in
-early development and is intended for testing rather than daily use.
+uDroid installs and runs Linux systems from one Android app. It manages Linux
+images, terminals, X11 desktops, installed applications, storage, audio, and
+device-specific compatibility options without requiring root.
 
 {% hint style="warning" %}
-Expect incomplete features and breaking changes. Keep important files backed
-up while the app is in early development.
+The app is in early testing. Expect incomplete features and breaking changes,
+and keep important Linux files backed up.
 {% endhint %}
 
 ## Download the app
 
-[Download the newest uDroid prerelease from GitHub](https://github.com/RandomCoderOrg/udroid-app/releases)
-and open the `.apk` file from the release assets. Android may ask for permission
-to install apps from the browser or file manager used to open it.
+[Download the newest prerelease from GitHub](https://github.com/RandomCoderOrg/udroid-app/releases),
+then open the `.apk` asset. Compare it with the attached `SHA256SUMS` before
+installing. Android may ask for permission to install apps from the browser or
+file manager used to open it.
 
-The source code and current development status are available in the
+The source and issue tracker are in the
 [uDroid app repository](https://github.com/RandomCoderOrg/udroid-app).
 
-## Getting started
+## Main areas
 
-1. Open **Linux** to browse or search available systems.
-2. Select a distribution or compatible official container image.
-3. Review the image and start the installation.
-4. Follow the normal progress view, or open the terminal panel for complete
-   installation logs.
-5. Select the installed system to open its status and controls page.
-6. Start its terminal, desktop environment, or an installed Linux application.
+| Area | Use it for |
+| --- | --- |
+| **Home** | See the active Linux system and open common actions. |
+| **Linux** | Install, open, reset, or delete Linux systems. |
+| **Terminal** | Run commands, install packages, and manage terminal tabs. |
+| **Apps** | Open graphical or terminal applications installed in Linux. |
+| **About** | Check for updates, get support, and inspect diagnostic logs. |
 
-Multiple Linux systems can remain installed. Each installed system has its own
-page, but the current app runs one active Linux runtime and one X11 display at
-a time.
+Some areas appear only after a Linux system is installed. **Device
+compatibility** on Home shows which optional features are available before you
+change graphics settings.
 
-## What currently works
+## Install a Linux system
 
-- Installing images from uDroid, PRoot-Distro, and supported official container
-  repositories.
-- Resumable downloads, archive or OCI digest verification, installation
-  progress, and detailed logs.
-- A bundled Termux terminal emulator with a supervised Linux session.
-- A bundled Termux:X11 server and display, so the separate Termux:X11 Android
-  app is not required.
-- Discovery and lifecycle controls for installed X11 desktop sessions.
-- Direct-pointer, trackpad-style, keyboard, and native multi-touch input.
-- Discovery of freedesktop `.desktop` applications inside the selected Linux
-  system.
-- Launching Linux applications from uDroid and pinning selected applications to
-  the Android launcher.
-- Update checks and verified APK downloads from the app's **About** page.
+1. Open **Linux** and choose a distribution.
+2. Review its download size and file access.
+3. Select **Download image**.
+4. Follow the installation stages until **Linux is ready**.
+5. Select **Open terminal**.
+
+You can leave the page while installation continues. Its notification returns
+to the same installation page. A paused download resumes without starting from
+zero. If installation stops, read the active-stage message and open **View
+install log** before selecting **Try again**.
+
+Multiple Linux systems can stay installed. Each has its own controls and
+settings, but uDroid currently runs one active Linux runtime and one X11
+display at a time.
+
+## User guides
+
+- [Terminal and appearance](terminal.md)
+- [Desktops, applications, input, and audio](desktop.md)
+- [Files, environment, and PRoot compatibility](files-and-runtime.md)
+- [Updates and troubleshooting](troubleshooting.md)
 
 ## Current limitations
 
-- Wayland desktop sessions are not launched; desktop support currently targets
-  X11 sessions.
-- Multiple installed systems cannot run desktop sessions concurrently.
-- Desktop compatibility varies because PRoot does not provide a normal
-  systemd, logind, or hardware environment.
-- General-purpose GPU acceleration is not yet a supported app feature.
-- Audio integration, multiple displays, and automatic desktop recovery are
-  still incomplete.
+- Wayland sessions are not supported yet; desktop sessions currently use X11.
+- PRoot is not a virtual machine. Docker, LXC, Snap, Flatpak sandboxes,
+  systemd services, and software requiring privileged kernel features may not
+  work.
+- Desktop and graphics compatibility varies by device. Graphics acceleration
+  is experimental; Venus, VirGL, ANGLE, or Mali profiles may work on compatible
+  hardware. Turnip is not supported yet.
+- Multiple Linux systems cannot run desktop sessions concurrently.
 
-Turning off desktop compositing can significantly improve responsiveness on
-some devices. See [Smooth Termux:X11 performance](../udroid-landing/setting-up-gui/smooth-desktop-performance.md)
-for the existing desktop-side guidance. That guide documents the official
-Termux:X11 setup; uDroid app-specific controls will be documented here as they
-stabilize.
+The Android app and the existing Termux-based uDroid setup are separate. The
+app does not replace or migrate an existing Termux installation.
 
-## uDroid app or the existing Termux setup?
+## Get help
 
-| Choose | When it fits |
-| --- | --- |
-| **uDroid Android app** | You want a single graphical app that manages installation, terminals, desktops, and Linux applications. |
-| **Existing uDroid scripts in Termux** | You prefer the established terminal-driven setup and direct control over Termux and Termux:X11. |
-
-Both approaches are part of uDroid. Installing the Android app does not replace
-or migrate an existing Termux installation.
-
-## Help the project
-
-If something fails, include the app version, Android version, selected Linux
-image, and the relevant installation or runtime logs when
-[filing an issue](https://github.com/RandomCoderOrg/udroid-app/issues).
-
-You can also support development by
-[starring the repository](https://github.com/RandomCoderOrg/udroid-app) or
-[sponsoring the organization](https://github.com/sponsors/RandomCoderOrg).
+When [filing an issue](https://github.com/RandomCoderOrg/udroid-app/issues),
+include the app version, Android version, phone model, selected Linux image,
+and the relevant installation or runtime logs.
